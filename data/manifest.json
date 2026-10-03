@@ -224,8 +224,8 @@
   "python_used_for_release_checks": "3.14.7",
   "rating_methods": "Two human reviewers reviewed responses and finalized ratings; one distinct final set retained. AI-proposed annotations were available to accept or correct. No independent-agreement estimate.",
   "release_export_date": "2026-10-03",
-  "release_version": "0.1.0",
-  "report_version": "Exploratory technical report 0.1.0",
+  "release_version": "0.1.1",
+  "report_version": "Exploratory technical report 0.1.1",
   "reviewer_credit": "Two independent human raters with data annotation experience",
   "scenarios": [
     {

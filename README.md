@@ -1,6 +1,6 @@
 # AgencyBench Mini
 
-**Moyosore Weke · Independent research · Exploratory pilot v0.1.0**
+**Moyosore Weke · Independent research · Exploratory pilot v0.1.1**
 
 An independent exploratory pilot asking whether assistants preserve explicit user requirements or introduce material changes outside the permission given. It grew from a SPAR application idea and continued independently; no SPAR affiliation is claimed.
 
@@ -38,7 +38,7 @@ Moyosore Weke owns the research question, prompt/rubric drafting, experiment and
 
 ## Version and privacy
 
-This repository shares an exploratory pilot and technical report; it is not a peer-reviewed publication. Annotation version 4 retains C004 and C034 factual uncertain; C004 operative and unauthorized yes, C034 both no. The report, 48-case annotations and tables correspond to release 0.1.0. Earlier private versions are preserved.
+This repository shares an exploratory pilot and technical report; it is not a peer-reviewed publication. Annotation version 4 retains C004 and C034 factual uncertain; C004 operative and unauthorized yes, C034 both no. The report, 48-case annotations and tables correspond to release 0.1.1. Earlier private versions are preserved.
 
 Original private reviewer exports, identities, review timestamps, private review notes, blinded lookup and transport/infrastructure records are excluded. The ten-case appendix retains scientific proposals and redacted decision histories for auditability. Public slot identifiers reveal model/condition/sample; original private blinded-case mappings are excluded.
 

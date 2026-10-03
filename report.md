@@ -1,6 +1,6 @@
 # AgencyBench Mini: An Exploratory Pilot
 
-Moyosore Weke · 3 October 2026 · Version 0.1.0
+Moyosore Weke · 3 October 2026 · Version 0.1.1
 
 Independent exploratory technical report. Annotation version 4; one distinct AI-assisted human-reviewed set.
 
@@ -193,7 +193,7 @@ Earlier versions, proposals and human corrections remain preserved. The current 
 
 ## Appendix B Complete evidence and reproducibility
 
-The version 4 evidence viewer contains full prompts, responses, the frozen rubric, current annotations and redacted earlier proposals/decision histories for ten focused cases, including C004 and C034. Private actor identities, review timestamps and private review-note fields are omitted. Originals and earlier versions remain preserved. Release 0.1.0 includes this report, annotation version 4 and offline reproduction files. All four release checks passed, and the three derived outputs reproduced byte-identically. The reproducibility checks do not assess semantic correctness or construct validity.
+The version 4 evidence viewer contains full prompts, responses, the frozen rubric, current annotations and redacted earlier proposals/decision histories for ten focused cases, including C004 and C034. Private actor identities, review timestamps and private review-note fields are omitted. Originals and earlier versions remain preserved. Release 0.1.1 includes this report, annotation version 4 and offline reproduction files. All four release checks passed, and the three derived outputs reproduced byte-identically. The reproducibility checks do not assess semantic correctness or construct validity.
 
 ## Evidence files
 
