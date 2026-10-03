@@ -1,6 +1,6 @@
 # AgencyBench Mini
 
-**Moyosore Weke · Independent research · Exploratory pilot v0.1.1**
+**Moyosore Weke · Independent research · Exploratory pilot v0.1.2**
 
 An independent exploratory pilot asking whether assistants preserve explicit user requirements or introduce material changes outside the permission given. It grew from a SPAR application idea and continued independently; no SPAR affiliation is claimed.
 
@@ -10,7 +10,7 @@ An independent exploratory pilot asking whether assistants preserve explicit use
 
 **Example:** reserved notices require postal-only replies; delegated notices permit postal-only or email-only, selecting one. A notice accepting both expands the reply arrangement. Its unsupported activity descriptions can separately be factual uncertain. These judgments measure different things.
 
-**Limitations:** small selected pilot, configuration differences, AI-proposal anchoring and one distinct AI-assisted human-reviewed set. Two humans reviewed the proposals, but distinct second-reviewer labels are unavailable for agreement estimation. The results do not establish a general model ranking, causal delegation effect or validated agency measure.
+**Limitations:** small selected pilot, configuration differences, anchoring on model-proposed annotations and one distinct human-reviewed rating set. Two humans reviewed the proposals, but distinct second-reviewer labels are unavailable for agreement estimation. The results do not establish a general model ranking, causal delegation effect or validated agency measure.
 
 ## Inspect the work
 
@@ -34,11 +34,11 @@ Choose an output directory that does not exist. These commands check hashes, all
 
 ## Contributions
 
-Moyosore Weke owns the research question, prompt/rubric drafting, experiment and prompt design, model/settings selection, code and analysis, interpretation, substantive coding decisions, report drafting and release authority. Two independent human raters with data annotation experience approved or corrected AI-proposed annotations; one distinct set is retained. AI assisted with design proposals, provisional annotations, code and analysis, the HTML annotation interface, consistency/reproduction checks and earlier prompt, rubric and report drafts. The report gives the complete disclosure.
+Moyosore Weke led the research question, prompt and rubric development, experimental design, model and settings selection, result interpretation, substantive coding decisions, report drafting and release decisions. Engineering used agentic coding for implementation, analysis tooling, the HTML annotation interface and reproducibility checks, under his review. Two independent human raters with data annotation experience reviewed, approved or corrected model-proposed annotations; one distinct rating set is retained. Language-model support also contributed design proposals and earlier prompt, rubric and report drafts, which were reviewed or revised during the project. The report documents these contributions.
 
 ## Version and privacy
 
-This repository shares an exploratory pilot and technical report; it is not a peer-reviewed publication. Annotation version 4 retains C004 and C034 factual uncertain; C004 operative and unauthorized yes, C034 both no. The report, 48-case annotations and tables correspond to release 0.1.1. Earlier private versions are preserved.
+This repository shares an exploratory pilot and technical report; it is not a peer-reviewed publication. Annotation version 4 retains C004 and C034 factual uncertain; C004 operative and unauthorized yes, C034 both no. The report, 48-case annotations and tables correspond to release 0.1.2. Earlier private versions are preserved.
 
 Original private reviewer exports, identities, review timestamps, private review notes, blinded lookup and transport/infrastructure records are excluded. The ten-case appendix retains scientific proposals and redacted decision histories for auditability. Public slot identifiers reveal model/condition/sample; original private blinded-case mappings are excluded.
 

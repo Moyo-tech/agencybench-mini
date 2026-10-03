@@ -5,9 +5,9 @@ type: software
 authors:
   - family-names: "Weke"
     given-names: "Moyosore"
-version: "0.1.1"
+version: "0.1.2"
 date-released: "2026-10-03"
 repository-code: "https://github.com/Moyo-tech/agencybench-mini"
 url: "https://github.com/Moyo-tech/agencybench-mini/blob/main/report.md"
-abstract: "A small exploratory evaluation of unauthorized changes to explicit user requirements: six task pairs, two configurations and 48 saved responses. One distinct AI-assisted human-reviewed rating set; no general model ranking or validated agency measure."
+abstract: "A small exploratory evaluation of unauthorized changes to explicit user requirements: six task pairs, two configurations and 48 saved responses. One distinct human-reviewed rating set based on model-proposed annotations; no general model ranking or validated agency measure."
 license: MIT

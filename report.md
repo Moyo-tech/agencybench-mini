@@ -1,12 +1,12 @@
 # AgencyBench Mini: An Exploratory Pilot
 
-Moyosore Weke · 3 October 2026 · Version 0.1.1
+Moyosore Weke · 3 October 2026 · Version 0.1.2
 
-Independent exploratory technical report. Annotation version 4; one distinct AI-assisted human-reviewed set.
+Independent exploratory technical report. Annotation version 4; one distinct human-reviewed set based on model-proposed annotations.
 
 ## Abstract
 
-AgencyBench Mini is a small exploratory evaluation of changes to explicit user requirements under reserved authority or bounded delegation. Six fictional task pairs, two model configurations and two samples per prompt/configuration produced 48 responses. Two human reviewers examined AI-proposed annotations; one distinct rating set is retained. Under the adopted coding decisions, 4 responses are classified as unauthorized departures, 39 as no evidenced unauthorized departure and 5 as uncertain. All four positives are the four local Qwen club notices; the other five task families have no positive responses. Both Qwen permission conditions have two positives, with different uncertainty counts. The concentration suggests a task-specific notice-writing pattern involving added arrangements or reply options, rather than evidence of a tendency across user decisions. The contribution is an inspectable collection, reproducible counts and documented coding problems. The pilot does not validate a general agency measure, causal delegation effect or broad model ranking.
+AgencyBench Mini is a small exploratory evaluation of changes to explicit user requirements under reserved authority or bounded delegation. Six fictional task pairs, two model configurations and two samples per prompt/configuration produced 48 responses. Two human reviewers examined model-proposed annotations; one distinct rating set is retained. Under the adopted coding decisions, 4 responses are classified as unauthorized departures, 39 as no evidenced unauthorized departure and 5 as uncertain. All four positives are the four local Qwen club notices; the other five task families have no positive responses. Both Qwen permission conditions have two positives, with different uncertainty counts. The concentration suggests a task-specific notice-writing pattern involving added arrangements or reply options, rather than evidence of a tendency across user decisions. The contribution is an inspectable collection, reproducible counts and documented coding problems. The pilot does not validate a general agency measure, causal delegation effect or broad model ranking.
 
 ## Background and motivation
 
@@ -54,9 +54,9 @@ All 48 final responses were received with normal-stop metadata. There were 49 re
 
 ### Annotation and human review workflow
 
-Two independent human raters with data annotation experience, including me, reviewed AI-proposed annotations for all 48 cases, approving them or making corrections. As previously reported, each reviewer examined the cases independently. Rater A supplied the retained 39 approvals and 9 corrections; six corrected cases changed at least one scored field. I later clarified the two channel cases and the accessibility case and made the documented post-review adjudications. The two submitted exports are byte-identical, so there is one distinct retained rating set and no separately available second-reviewer labels from which to estimate agreement. Independent review is reported by me; it is not an agreement result. Original exports and histories are preserved.
+Two independent human raters with data annotation experience, including me, reviewed model-proposed annotations for all 48 cases, approving them or making corrections. As previously reported, each reviewer examined the cases independently. Rater A supplied the retained 39 approvals and 9 corrections; six corrected cases changed at least one scored field. I later clarified the two channel cases and the accessibility case and made the documented post-review adjudications. The two submitted exports are byte-identical, so there is one distinct retained rating set and no separately available second-reviewer labels from which to estimate agreement. Independent review is reported by me; it is not an agreement result. Original exports and histories are preserved.
 
-Reviewers had access to AI-proposed annotations, which they could accept or correct. This can anchor judgments. Identifiers for model and sample were concealed in the packet; writing style and annotation text could still suggest provenance, so complete blinding is not claimed. Permission remained visible for scoring.
+Reviewers had access to model-proposed annotations, which they could accept or correct. This can anchor judgments. Identifiers for model and sample were concealed in the packet; writing style and annotation text could still suggest provenance, so complete blinding is not claimed. Permission remained visible for scoring.
 
 There are five structured fields:
 
@@ -142,7 +142,7 @@ The clearest observed pattern is confined to one task family. All four Qwen noti
 
 Qwen has two positive responses in each permission condition. Its reserved distribution is 2 yes/8 no/2 uncertain and delegated distribution is 2 yes/7 no/3 uncertain. Thus there is no reserved-versus-delegated difference in positive counts; the no/uncertain counts differ. These sparse observations do not establish a causal delegation effect. Sol's zero observed positives likewise does not establish general agency preservation or model superiority. Ordinary semantic instruction-following remains an alternative explanation for the measured behavior.
 
-Six designed families and two samples per prompt/configuration give limited coverage; 48 responses are not 48 independent task types. Model size, quantization, reasoning and generation controls differ. Reviewers could be anchored by AI proposals, and distinct second-reviewer labels are unavailable for agreement estimation. The uncertainty threshold and factual-versus-operative materiality distinction require further testing. C004's factual-uncertain judgment is now explicitly adopted, while its channel-expansion judgment remains yes. No significance test, composite agency score or validated human-autonomy outcome is reported.
+Six designed families and two samples per prompt/configuration give limited coverage; 48 responses are not 48 independent task types. Model size, quantization, reasoning and generation controls differ. Reviewers could be anchored by Model proposals, and distinct second-reviewer labels are unavailable for agreement estimation. The uncertainty threshold and factual-versus-operative materiality distinction require further testing. C004's factual-uncertain judgment is now explicitly adopted, while its channel-expansion judgment remains yes. No significance test, composite agency score or validated human-autonomy outcome is reported.
 
 A next study should specify channel, materiality and inference boundaries prospectively, retain separate reviewer exports, include fresh task families and compare with a simple instruction-following checklist. Paraphrase robustness, scaffold effects and downstream human outcomes were not evaluated here.
 
@@ -153,20 +153,21 @@ The project preserves frozen prompts, rubric, schedule, exact responses, request
 | Contributor | Role |
 | --- | --- |
 | **Moyosore Weke** | Research question; prompt and rubric drafting; code and analysis; experiment and prompt design; model and settings selection; result interpretation; substantive coding decisions; report drafting; final release authority. |
-| **Two independent human raters with data annotation experience** | Reviewing AI-proposed annotations, approving or correcting them; one distinct rating set retained. |
-| **AI assistance** | Design proposals; provisional annotations; code and analysis; HTML annotation interface; consistency and reproduction checks. |
+| **Two independent human raters with data annotation experience** | Reviewing model-proposed annotations, approving or correcting them; one distinct rating set retained. |
+| **Agentic coding** | Implementation and analysis tooling; HTML annotation interface; consistency and reproduction checks, under my review. |
+| **Language-model support** | Design proposals; provisional annotations; earlier prompt, rubric and report drafts, reviewed or revised during the project. |
 
-Code and analysis involved both my work and AI assistance. I retained responsibility for the scientific decisions, interpretation and final claims.
+Code and analysis involved my work and agentic coding. I retained responsibility for the scientific decisions, interpretation and final claims.
 
 The human-review workflow and unavailable independent-agreement estimate are documented in Methods.
 
-Earlier prompt, rubric and report drafts were also produced with AI assistance and reviewed or revised during the project. This disclosure records that drafting support alongside my contributions. AI proposals were not treated as independent human ratings. The project is an independent continuation of my SPAR application ideas, with the original research direction credited to Juan Cadile.
+Earlier prompt, rubric and report drafts were also produced with language-model support and reviewed or revised during the project. This disclosure records that drafting support alongside my contributions. Model proposals were not treated as independent human ratings. The project is an independent continuation of my SPAR application ideas, with the original research direction credited to Juan Cadile.
 
 The accompanying repository includes sanitized prompts, responses and annotations; private model-to-case lookup files are excluded. The current analysis has 48 linked cases, conserved denominators and versioned counts after human adjudication. The project test suite passed 36 tests; software checks validate linkage and arithmetic, not semantic correctness or construct validity.
 
 ## Conclusion
 
-This exploratory pilot provides 48 saved responses, one AI-assisted human-reviewed rating set and reproducible descriptive counts. Under the adopted rules, four responses are classified as unauthorized departures, all in the four Qwen club notices; five other responses remain uncertain. The cases illustrate reply-choice expansion and unsupported event arrangements, while the puzzle and experiment cases expose unresolved measurement boundaries. The contribution is a small inspectable collection with explicit coding decisions, not a validated agency measure or a general finding about assistant behavior. The primary classification counts are 4 yes, 39 no and 5 uncertain; factual counts are 1 yes, 35 no and 12 uncertain following my C004 factual decision.
+This exploratory pilot provides 48 saved responses, one human-reviewed rating set based on model-proposed annotations and reproducible descriptive counts. Under the adopted rules, four responses are classified as unauthorized departures, all in the four Qwen club notices; five other responses remain uncertain. The cases illustrate reply-choice expansion and unsupported event arrangements, while the puzzle and experiment cases expose unresolved measurement boundaries. The contribution is a small inspectable collection with explicit coding decisions, not a validated agency measure or a general finding about assistant behavior. The primary classification counts are 4 yes, 39 no and 5 uncertain; factual counts are 1 yes, 35 no and 12 uncertain following my C004 factual decision.
 
 ## Reference
 
@@ -193,7 +194,7 @@ Earlier versions, proposals and human corrections remain preserved. The current 
 
 ## Appendix B Complete evidence and reproducibility
 
-The version 4 evidence viewer contains full prompts, responses, the frozen rubric, current annotations and redacted earlier proposals/decision histories for ten focused cases, including C004 and C034. Private actor identities, review timestamps and private review-note fields are omitted. Originals and earlier versions remain preserved. Release 0.1.1 includes this report, annotation version 4 and offline reproduction files. All four release checks passed, and the three derived outputs reproduced byte-identically. The reproducibility checks do not assess semantic correctness or construct validity.
+The version 4 evidence viewer contains full prompts, responses, the frozen rubric, current annotations and redacted earlier proposals/decision histories for ten focused cases, including C004 and C034. Private actor identities, review timestamps and private review-note fields are omitted. Originals and earlier versions remain preserved. Release 0.1.2 includes this report, annotation version 4 and offline reproduction files. All four release checks passed, and the three derived outputs reproduced byte-identically. The reproducibility checks do not assess semantic correctness or construct validity.
 
 ## Evidence files
 
