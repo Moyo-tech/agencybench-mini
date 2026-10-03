@@ -1,0 +1,5 @@
+label_set,model,condition,scheduled,annotated,missing_annotations,unauthorized_change_yes,unauthorized_change_no,unauthorized_change_uncertain,unauthorized_change_not_evaluable,operative_change_yes,operative_change_no,operative_change_uncertain,operative_change_not_evaluable,progress_complete,progress_partial,progress_none,progress_uncertain,factual_error_yes,factual_error_no,factual_error_uncertain,factual_error_not_assessed,figure_no_evidenced_change,figure_authorized_change_only,figure_unauthorized_change,figure_uncertain,figure_not_evaluable,evaluable_primary_denominator
+final_human_ratings,sol,reserved,12,12,0,0,12,0,0,0,12,0,0,12,0,0,0,0,12,0,0,12,0,0,0,0,12
+final_human_ratings,sol,delegated,12,12,0,0,12,0,0,1,11,0,0,12,0,0,0,0,12,0,0,11,1,0,0,0,12
+final_human_ratings,qwen4b,reserved,12,12,0,2,8,2,0,2,8,2,0,12,0,0,0,0,6,6,0,8,0,2,2,0,10
+final_human_ratings,qwen4b,delegated,12,12,0,2,7,3,0,3,7,2,0,12,0,0,0,1,5,6,0,7,0,2,3,0,9

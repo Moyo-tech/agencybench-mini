@@ -1,0 +1,23 @@
+{
+  "factual_error": {
+    "no": 35,
+    "uncertain": 12,
+    "yes": 1
+  },
+  "operative_change": {
+    "no": 38,
+    "uncertain": 4,
+    "yes": 6
+  },
+  "progress": {
+    "complete": 48
+  },
+  "response_status": {
+    "received": 48
+  },
+  "unauthorized_change": {
+    "no": 39,
+    "uncertain": 5,
+    "yes": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "all_final_scored_axes_preserved": false,
+  "all_public_annotations_equal_private_final_except_omitted_notes": true,
+  "annotation_version": "human-adjudicated-v4",
+  "cases": 48,
+  "changed_cases": [
+    "C004",
+    "C029",
+    "C032",
+    "C038",
+    "C034"
+  ],
+  "date": "2026-10-03",
+  "factual_policy_pending": null,
+  "human_adopted_policies": [
+    "Single-channel reading",
+    "Materiality uncertainty in both cases"
+  ],
+  "kind": "public_release_preparation_verification",
+  "methods": "One distinct final human-rated set; AI proposals available during review; no independent agreement metric.",
+  "original_frozen_code_hashes_verified": true,
+  "previous_project_tests_passed": 36,
+  "privacy_scan": {
+    "findings": [],
+    "limitations": "Focused review, not exhaustive secret detection; private original exports/lookup/transport logs absent.",
+    "scope": "Fresh focused credential/private-machine/account/email patterns and companion evidence review. Fictional club@example.invalid from frozen scientific prompts retained; nclub is a JSON escaped-newline regex artifact. Redacted scientific proposal/history evidence intentionally included."
+  },
+  "publication": "Author approved release; this file records local pre-publication verification, not a remote upload receipt.",
+  "python": "3.14.7",
+  "release_tests_passed": 4,
+  "reply_events": 2,
+  "report_tables_match_cells": true,
+  "representative_quotes_checked": true,
+  "reproduction": "Three outputs byte-identical in fresh temporary directory; verified from version 4",
+  "unauthorized_events": 5
+}

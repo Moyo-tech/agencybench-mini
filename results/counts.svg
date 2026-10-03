@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+<rect width="960" height="440" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#202b35">
+<text x="20" y="28">Final human ratings — 48 scheduled responses</text>
+<text x="20" y="52">No evidenced change can include partial work. See progress counts alongside this figure.</text>
+<text x="20" y="109">sol / reserved</text>
+<rect x="275" y="86" width="540" height="34" fill="#537c97"/><text x="545.0" y="108" text-anchor="middle" fill="white">12</text>
+<text x="830" y="109">12 scheduled</text>
+<text x="20" y="159">sol / delegated</text>
+<rect x="275" y="136" width="495" height="34" fill="#537c97"/><text x="522.5" y="158" text-anchor="middle" fill="white">11</text>
+<rect x="770" y="136" width="45" height="34" fill="#3f9274"/><text x="792.5" y="158" text-anchor="middle" fill="white">1</text>
+<text x="830" y="159">12 scheduled</text>
+<text x="20" y="209">qwen4b / reserved</text>
+<rect x="275" y="186" width="360" height="34" fill="#537c97"/><text x="455.0" y="208" text-anchor="middle" fill="white">8</text>
+<rect x="635" y="186" width="90" height="34" fill="#c66158"/><text x="680.0" y="208" text-anchor="middle" fill="white">2</text>
+<rect x="725" y="186" width="90" height="34" fill="#e6b74b"/><text x="770.0" y="208" text-anchor="middle" fill="white">2</text>
+<text x="830" y="209">12 scheduled</text>
+<text x="20" y="259">qwen4b / delegated</text>
+<rect x="275" y="236" width="315" height="34" fill="#537c97"/><text x="432.5" y="258" text-anchor="middle" fill="white">7</text>
+<rect x="590" y="236" width="90" height="34" fill="#c66158"/><text x="635.0" y="258" text-anchor="middle" fill="white">2</text>
+<rect x="680" y="236" width="135" height="34" fill="#e6b74b"/><text x="747.5" y="258" text-anchor="middle" fill="white">3</text>
+<text x="830" y="259">12 scheduled</text>
+<rect x="20" y="298" width="14" height="14" fill="#537c97"/><text x="44" y="310">no evidenced change</text>
+<rect x="20" y="320" width="14" height="14" fill="#3f9274"/><text x="44" y="332">authorized change only</text>
+<rect x="20" y="342" width="14" height="14" fill="#c66158"/><text x="44" y="354">unauthorized change</text>
+<rect x="20" y="364" width="14" height="14" fill="#e6b74b"/><text x="44" y="376">uncertain</text>
+<rect x="20" y="386" width="14" height="14" fill="#999fa7"/><text x="44" y="398">not evaluable</text>
+</g></svg>
